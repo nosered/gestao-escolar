@@ -1,0 +1,1 @@
+SELECT * FROM TbMatricula WHERE codigo = :codigo

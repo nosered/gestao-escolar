@@ -1,0 +1,1 @@
+SELECT * FROM TbTurma WHERE codigo = :codigo

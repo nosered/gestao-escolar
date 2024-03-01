@@ -1,0 +1,1 @@
+INSERT INTO TbMatricula(codigoAluno, codigoTurma, ativo, criadoEm, atualizadoEm) VALUES(:aluno, :turma, true, now(), now())

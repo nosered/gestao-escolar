@@ -1,0 +1,12 @@
+server:
+  port: 80
+
+spring:
+  main:
+    banner-mode: off
+  datasource:
+    postgresql:
+      jdbcUrl: jdbc:postgresql://chunee.db.elephantsql.com/hldfvuxt
+      username: ${POSTGRESQL_USERNAME}
+      password: ${POSTGRESQL_PASSWORD}
+      driver-class-name: org.postgresql.Driver
